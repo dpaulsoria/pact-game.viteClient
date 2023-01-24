@@ -4,7 +4,7 @@ import { randomCodeGenerator } from "../utils/randomCodeGenerator";
 
 import { Button, Box } from "@mui/material";
 import { ModalRoom } from "../components/Modals/ModalRoom";
-import { Manual } from "../components/Manual/Manual";
+import { Manual } from "../components/Manual";
 
 import constants from "../config/constants";
 
@@ -60,10 +60,7 @@ function Welcome({ redirectTo, images: { show, image } }) {
           />
         </div>
         <div className="homepage-manual">
-          <button
-            className="homepage-button"
-            onClick={handleCloseTutorial}
-          >
+          <button className="homepage-button" onClick={handleCloseTutorial}>
             Manual del Juego
           </button>
           {openTutorial && <Manual setOpenTutorial={setOpenTutorial}></Manual>}
