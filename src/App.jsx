@@ -2,6 +2,10 @@ import { useState } from 'react'
 import logo from './assets/svg/logo.svg'
 import './styles/App.css'
 
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+
+
+
 function App() {
   const [count, setCount] = useState(0)
 
