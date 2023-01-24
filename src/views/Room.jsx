@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-const Room = ({ code }) => {
+function Room({ code }) {
   return (
     <div>
       <h1>{code}</h1>

@@ -162,7 +162,7 @@ a {
     justify-content: center;
   }
 }
-/* 
+/*
 @media screen and (min-width: 1200px) {
   #logo {
     width: 8vw;
@@ -201,7 +201,7 @@ a {
 
 .table-game {
   margin-top: 25%;
-  background-image: url("./assets/table.jpg");
+  background-image: url("src/assets/table.jpg");
   display: flex;
   flex-direction: row;
   align-content: center;

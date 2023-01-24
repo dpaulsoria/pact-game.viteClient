@@ -8,13 +8,11 @@ const Header = () => {
   const [isMusicMuted, setMusicMuted] = useState(true);
   const [playBBgMusic, { pause }] = useSound(bgMusic, { loop: true });
 
+  const logo2path = "src/assets/logo2.png";
+
   return (
     <div className="Header">
-      <img
-        className="header-icon"
-        src={require("../../assets/logo2.png")}
-        alt="logo"
-      />
+      <img className="header-icon" src={logo2path} alt="logo" />
       <div className="">
         <h4 className="header-name"> PAWS AND CLAWS TRIAL</h4>
       </div>
@@ -42,4 +40,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export { Header };
